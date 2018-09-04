@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		11E96676213EF9AA0097DC31 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E96675213EF9AA0097DC31 /* AppDelegate.swift */; };
-		11E96678213EF9AA0097DC31 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E96677213EF9AA0097DC31 /* ViewController.swift */; };
 		11E9667B213EF9AA0097DC31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11E96679213EF9AA0097DC31 /* Main.storyboard */; };
 		11E9667D213EF9AB0097DC31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11E9667C213EF9AB0097DC31 /* Assets.xcassets */; };
 		11E96680213EF9AB0097DC31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11E9667E213EF9AB0097DC31 /* LaunchScreen.storyboard */; };
+		11E96688213EFC440097DC31 /* PetsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E96687213EFC440097DC31 /* PetsTableViewController.swift */; };
+		11E9668A213EFC8E0097DC31 /* Pets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E96689213EFC8E0097DC31 /* Pets.swift */; };
+		11E9668C213EFD740097DC31 /* PetsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E9668B213EFD740097DC31 /* PetsController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		11E96672213EF9AA0097DC31 /* Pets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pets.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11E96675213EF9AA0097DC31 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		11E96677213EF9AA0097DC31 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		11E9667A213EF9AA0097DC31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		11E9667C213EF9AB0097DC31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		11E9667F213EF9AB0097DC31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		11E96681213EF9AB0097DC31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11E96687213EFC440097DC31 /* PetsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetsTableViewController.swift; sourceTree = "<group>"; };
+		11E96689213EFC8E0097DC31 /* Pets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pets.swift; sourceTree = "<group>"; };
+		11E9668B213EFD740097DC31 /* PetsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetsController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +59,10 @@
 			isa = PBXGroup;
 			children = (
 				11E96675213EF9AA0097DC31 /* AppDelegate.swift */,
-				11E96677213EF9AA0097DC31 /* ViewController.swift */,
 				11E96679213EF9AA0097DC31 /* Main.storyboard */,
+				11E96687213EFC440097DC31 /* PetsTableViewController.swift */,
+				11E96689213EFC8E0097DC31 /* Pets.swift */,
+				11E9668B213EFD740097DC31 /* PetsController.swift */,
 				11E9667C213EF9AB0097DC31 /* Assets.xcassets */,
 				11E9667E213EF9AB0097DC31 /* LaunchScreen.storyboard */,
 				11E96681213EF9AB0097DC31 /* Info.plist */,
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11E96678213EF9AA0097DC31 /* ViewController.swift in Sources */,
+				11E9668A213EFC8E0097DC31 /* Pets.swift in Sources */,
+				11E9668C213EFD740097DC31 /* PetsController.swift in Sources */,
 				11E96676213EF9AA0097DC31 /* AppDelegate.swift in Sources */,
+				11E96688213EFC440097DC31 /* PetsTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
